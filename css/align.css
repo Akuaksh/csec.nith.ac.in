@@ -1,0 +1,28 @@
+*
+{margin:0px;
+padding:0px;position:relative;
+
+}
+.wrapper
+{width:695.5px;
+height:544px;
+margin:auto;
+
+position:relative;
+background-color: #d4d7e0;
+}
+img
+{width:110px;height:90px;border: 1px solid #d6d6d6;}
+figure {
+float:left;
+width: 125px;
+height: 100px;
+
+padding: 9px;
+text-align: left;
+margin-right:10px;margin-top:5px;
+margin-left:10px;}
+figcaption
+{text-align:center;
+font-size:10pt;
+font-style:bold;}

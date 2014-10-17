@@ -1,0 +1,113 @@
+/* Initially written by Rahul Raturi and Rohan Jaswal-->
+ ©CSEC-NITH*/
+
+.header{
+	margin-bottom: 0px;
+	font-family:;
+	font-size: 16px;
+	line-height: 1;
+	letter-spacing: -1px;
+	color: #FFF;
+}
+
+
+/* -----------------------------Navigation styling-----------------------------*/
+
+.parent_list{
+	list-style-type: none;
+	padding-left: 0px;
+}
+#navbar a:link, #navbar a:visited{
+	text-decoration: none;
+/*	color: #151515;*/
+	
+}
+#navbar a:hover{
+	text-decoration: none;
+	color: #FFF;
+	/*background-color:#323754;*/
+}
+#navbar a:active{
+	text-decoration: underline;
+	color: #000000;
+}
+
+.nested_list{
+	list-style-image: url(/images/checklist.png);
+	padding-left: 25px;
+	
+}
+ul.parent_list li {
+   margin: 5px;
+   padding: 3px 10px 3px 10px;
+   color: #151515;
+   background-color:#d3e5f1;
+   text-align:left;
+}
+
+ul.parent_list li:hover {
+   color: #FFF;
+   background-color: #000; 
+   opacity: .5;
+}
+.nested_list li:hover{
+	background-color:#000;
+	opacity: .5;
+}
+
+/*----------social links-------------------------*/
+
+
+
+#social_links {
+    position: fixed;
+    bottom: 0px;
+    margin-bottom:0px;
+    margin-left:-8px;
+    margin-right:-8px;
+    padding: 5px 15px 5px 15px;
+    background: #323754;
+    box-shadow: 10px 10px 10px #A9AFC2;
+}
+#social_links li{
+	float:right;
+	list-style-type:none;
+}
+#social_links li a {
+    display: block;
+    background-repeat: no-repeat;
+    color:#3B5998;
+}
+#social_links li a img {
+    -webkit-transition:  opacity .2s ease-in-out;
+    -moz-transition:  opacity .2s ease-in-out;
+    -o-transition:  opacity .2s ease-in-out;
+    transition:  opacity .2s ease-in-out;
+    height:30px;
+    width:30px;
+    
+}
+#social_links li a:hover img {
+    opacity: .5;
+}
+#social_links li a:active img {
+    opacity: 1;
+}
+#social_links li:first-child {
+    background-image: url('../images/facebook.png');
+}
+#social_links li:nth-child(2) {
+    background-image: url('../images/twitter.png');
+}
+#social_links li:nth-child(3) {
+    background-image: url('../images/email.png');
+}
+#social_links li:nth-child(4) {
+    background-image: url('../images/github.png');
+}
+#social_links li:nth-child(5) {
+    background-image: url('../images/quora.jpg');
+}
+#social_links li:nth-child(5) {
+    background-image: url('../images/google-plus.jpg');
+

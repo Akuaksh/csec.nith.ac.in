@@ -4,39 +4,56 @@ h1,h3{
 	padding:5px 5px 5px 5px;
 	color:#4C9CDF;
 }
-
+h2{
+	color:#FFF;
+	margin-top:-5px;
+	padding-bottom:5px;
+	float:left;
+}
 body{
-	max-width: 950px;
-	position: relative;
 	background: url(../images/homepageTexture.jpg);
 	background-repeat: repeat;
+	overflow:auto;
+	height:100%
+}
+#main_content{
+	max-width: 850px;
+	height:100%;
+	position: absolute;
+	left:230px;
+	right:10px;
 	font-size: 14px;
 	font-family: "Open Sans",sans-serif;
 	word-spacing: 1px;
-	margin:10px auto 10px auto;
-	padding: 5px 10px 10px 10px;
+	margin:30px auto 10px auto;
+	padding: 30px 10px 10px 10px;
+	z-index:1;
 }
 
 div{
 	text-align:justify;
-	
 }
-.article{
+.article,.article-left,.article-right{
     position:relative;
     background: none repeat scroll 0% 0% #FFF;
-    /*border-top: 3px solid #4C9CDF;*/
     box-shadow: 2px 2px 10px #A9AFC2;
     border-radius: 3px;
     padding: 10px 10px 10px 10px;
     margin: 10px auto 10px auto;
     max-width: 1000px;
+    min-width:400px;
     text-align:justify;
 	color: #4C9CDF
 	display: block;
 	overflow:hidden;
 	height:auto;
-	
+}
 
+.article-left{
+	float:left;
+}
+.article-right{
+	float:right;
 }
 .image{
 	margin-left:50px;

@@ -1,14 +1,35 @@
 /* Initially written by Rahul Raturi and Rohan Jaswal-->
  ©CSEC-NITH*/
+ 
+/*--------------------------Header styling---------------------------------*/
 
-.header{
-	margin-bottom: 0px;
-	font-family:;
-	font-size: 16px;
-	line-height: 1;
-	letter-spacing: -1px;
-	color: #FFF;
+.header img{
+	height:30px;
+	margin-left:20px;
+	border:1px solid #FFF;
+	border-radius:2px;
+	float:left;
 }
+.header{
+	width:100%;
+	z-index:1000;
+	position:fixed;
+	top:0px;
+	padding-top:5px;
+	margin-left:-8px;
+	line-height: 0.5;
+	letter-spacing: -1px;
+	background: repeat scroll 0% 0% #323754;
+	height:auto;
+}
+.header h2{
+	font-size: 24px;
+	position:relative;
+	color:#FFF;
+	float:left;
+	padding:15px 3px 0px 10px;
+}
+	
 
 
 /* -----------------------------Navigation styling-----------------------------*/
@@ -16,6 +37,20 @@
 .parent_list{
 	list-style-type: none;
 	padding-left: 0px;
+}
+#navbar{
+	position:fixed;
+	left:0px;
+	top:61px;
+	max-width:200px;
+	min-width:200px;
+	display:block;
+	background: #efefef;
+	padding: 15px 5px 5px 5px;
+	margin: -15px 10px 0px 0px;
+	height:100%;
+	overflow:auto;
+	z-index:1;
 }
 #navbar a:link, #navbar a:visited{
 	text-decoration: none;
@@ -63,12 +98,14 @@ ul.parent_list li:hover {
 #social_links {
     position: fixed;
     bottom: 0px;
+    left:0px;
     margin-bottom:0px;
-    margin-left:-8px;
-    margin-right:-8px;
+    margin-left:0px;
+    margin-right:10px;
     padding: 5px 15px 5px 15px;
     background: #323754;
     box-shadow: 10px 10px 10px #A9AFC2;
+    z-index:999;
 }
 #social_links li{
 	float:right;
@@ -112,3 +149,11 @@ ul.parent_list li:hover {
 #social_links li:nth-child(5) {
     background-image: url('../images/google-plus.jpg');
 */
+
+
+
+/*--------------------------navbar-left styling-------------------------*/
+
+#navbar-left{
+	position:fixed;
+	left:0px;

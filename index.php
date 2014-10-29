@@ -26,13 +26,20 @@
 			</p>
 			</div>
 		</div>
-		
-	<div class="article-left">
+		<div class="article-left">
+			<center><h3>Upcoming</h3></center>
+			<div class="text">
+				<p>
+					A new video portal is under construction which will serve you various video tutorials on local Network of NITH. Then you can view those tutorials at high speeds and can get rid of poor internet speed for viewing tutorials on youtube. 
+				</p>
+			</div>
+		</div>
+	<div class="article-right">
 		            <a class="twitter-timeline"  href="https://twitter.com/csecnith" data-widget-id="525556426265989121">CSEC on Twitter</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                     
 	</div>
-	<div class ="article">
+	<!--div class ="article">
 		<p>
 			<center>
 			<h3>Notice</h3>

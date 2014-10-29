@@ -1,6 +1,7 @@
 <HTML>
 <head>
 	<link href="../css/content.css" type="text/css" rel="stylesheet">
+	<title>.::CSEC::.</title>
 </head>
 <?php 
 	include_once "../includes/navigation.php";

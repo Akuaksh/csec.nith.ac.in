@@ -17,7 +17,7 @@ body{
 	height:100%
 }
 #main_content{
-	max-width: 850px;
+	max-width: 950px;
 	height:100%;
 	position: absolute;
 	left:230px;
@@ -48,12 +48,16 @@ div{
 	overflow:hidden;
 	height:auto;
 }
-
+.article-left,.article-right{
+	max-width:450px;
+}
 .article-left{
 	float:left;
+	margin-right:10px;
 }
 .article-right{
 	float:right;
+	margin-left:10px;
 }
 .image{
 	margin-left:50px;

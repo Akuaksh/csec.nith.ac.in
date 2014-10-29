@@ -3,7 +3,10 @@
 <html>
 <head>
 	<link href="/css/main.css" type="text/css" rel="stylesheet">
-	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="description" content="CSEC is the departmental club of Computer Science and Engineering Department of National Institute of Technology, Hamirpur. CSEC stands for Computer Science Engineers Community. The website brings to you the treasure of computer science knowledge.">
+  <meta name="keywords" content="CSEC, csec, computer science, CSE, CSENITH, departmental club, CSE departmental Club">
+   <meta name="author" content="CSEC-NITH">
 </head>
 	<div class="header">
 		<div class="logo"><img src='/images/imes.jpeg'/></div>

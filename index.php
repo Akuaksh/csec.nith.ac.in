@@ -21,8 +21,9 @@
 				<div class="image">
 					<img src="/images/images.jpeg" />
 				</div>
-				Welcome to the new website of Computer Science Engineers 
-				community of National Institute of Technology, Hamirpur. 
+				Welcome to the new website of CSEC. CSEC stands for Computer Science Engineers Community. This is a student's club of the <a href="https://cse.nith.ac.in">Computer Science & Engineering Department</a> of <a href="https://nith.ac.in">NIT Hamirpur</a>. Being a student's club of one of the most prominent branch of the institute, CSEC plans a number of educational events, lectures, workshops, conventions, insight meets and various other events to help out the students of Computer Science and Information Technology branch with their overall course and development. The club does not falter on the entertainment side either. A number of fun activities and post-event meet-ups make sure the members and the students not just interact with the seniors, but also increase their interest in the learning and development process. <br>
+
+
 			</p>
 			</div>
 		</div>

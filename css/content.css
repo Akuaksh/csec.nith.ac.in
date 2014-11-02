@@ -33,7 +33,7 @@ body{
 div{
 	text-align:justify;
 }
-.article,.article-left,.article-right{
+.article,.article-left,.article-right,.tut_thumbnail{
     position:relative;
     background: none repeat scroll 0% 0% #FFF;
     box-shadow: 2px 2px 10px #A9AFC2;
@@ -50,14 +50,30 @@ div{
 }
 .article-left,.article-right{
 	max-width:450px;
+	min-height:250px;
 }
-.article-left{
+.article-left,.tut_thumbnail{
 	float:left;
 	margin-right:10px;
 }
 .article-right{
 	float:right;
 	margin-left:10px;
+}
+.tut_thumbnail{
+	max-height:200px;
+	max-width:190px;
+	min-width:190px;
+	margin:10px 10px 10px 10px;
+	border-radius: 40px;
+}
+.tut_thumbnail img{
+	display: block;
+	height:150px;
+	width:150px;
+	margin:5px auto 5px auto;
+	border-bottom: 3px solid #665544;
+	padding-bottom:5px;
 }
 .image{
 	margin-left:50px;
@@ -79,3 +95,4 @@ div{
 	float:right;
 	z-index:0;
 }
+
